@@ -11,6 +11,7 @@
         {
             Console.Write($" {numbers}");
         }
+
         for (int i = 0; i < array.Length; i++)
         {
             for (int j = 0; j < array.Length; j++)
@@ -23,7 +24,9 @@
                 }
             }
         }
+
         Console.Write(" | ");
+
         for (int i = 0; i < array.Length; i++)
         {
             Console.Write($" {array[i]}");
